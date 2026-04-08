@@ -7,7 +7,7 @@ import Footer from "@/components/layout/footer";
 import ContextMenu from "@/components/context-menu";
 
 export const metadata: Metadata = {
-  title: "DevDepth | Portfolio",
+  title: "HustlersBuddy | Portfolio",
   description: "A personal portfolio for a passionate developer.",
 };
 
