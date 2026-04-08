@@ -34,7 +34,7 @@ export default function Header() {
       <div className="container mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-2">
           <Code2 className="h-8 w-8 text-primary" />
-          <span className="font-headline text-xl font-bold">DevDepth</span>
+          <span className="font-headline text-xl font-bold">HustlersBuddy</span>
         </Link>
         <nav className="hidden items-center gap-6 md:flex">
           {navLinks.map((link) => (
@@ -62,7 +62,7 @@ export default function Header() {
                   <div className="flex justify-between items-center mb-8">
                     <Link href="/" onClick={() => setIsMobileMenuOpen(false)} className="flex items-center gap-2">
                       <Code2 className="h-8 w-8 text-primary" />
-                      <span className="font-headline text-xl font-bold">DevDepth</span>
+                      <span className="font-headline text-xl font-bold">HustlersBuddy</span>
                     </Link>
                     <SheetClose asChild>
                       <Button variant="ghost" size="icon">
